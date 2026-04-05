@@ -25,7 +25,7 @@ total_people_all = 0
 entry_count = 0
 skipped = 0
 
-with open("/content/logs.txt") as file:
+with open("logs.txt", "r") as file:
     for line in file:
         line = line.strip()
 

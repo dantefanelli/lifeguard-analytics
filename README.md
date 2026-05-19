@@ -1,6 +1,6 @@
 # Lifeguard Scheduling & Analytics Tool
 
-Python-based analytics system built to process real-world pool sign-in logs and improve staffing decisions.
+Python-based analytics system using sample pool sign-in data to model how attendance logs can support staffing decisions.
 
 ## Overview
 
@@ -8,7 +8,7 @@ This project parses operational log data from a paper-based sign-in system and c
 
 ## Features
 
-- Parses real-world log data (day | time | name | guest count)
+- Parses sample log data (day | time | name | guest count)
 - Estimates total swimmers from incomplete data (member + guests)
 - Identifies busiest days and hours
 - Ranks all days by total attendance
@@ -52,7 +52,7 @@ Recommended guards for peak day: 3
 
 ## Real-World Context
 
-This project is based on actual lifeguard operations where attendance data is manually recorded and incomplete. The system is designed to extract useful insights from imperfect data, similar to how security systems analyze real-world logs.
+This project is based on a real lifeguard operations problem, but the public version uses sample data only. It models how manually recorded attendance logs can be converted into useful staffing insights.
 
 ## Future Improvements
 
